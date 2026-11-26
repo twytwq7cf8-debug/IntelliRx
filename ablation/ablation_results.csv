@@ -1,0 +1,5 @@
+drugs_first,listwise,train_size,variant,CMS,CMS_p_vs_base,DDI_rate,DDI_rate_p_vs_base,f1_at_k,f1_at_k_p_vs_base,h_at_5,h_at_5_p_vs_base,jaccard,jaccard_p_vs_base,mrr,mrr_p_vs_base,p_at_1,p_at_1_p_vs_base
+False,False,800,TraceDR (baseline),0.0573,,0.032,,0.2465,,0.68,,0.1675,,0.5281,,0.41,
+False,True,800,+ listwise loss,0.0693,0.0904,0.0413,0.1277,0.2697,0.0034,0.7467,0.0013,0.1835,0.0152,0.5807,0.0056,0.4667,0.0498
+True,False,800,+ drugs-first graph,0.0567,1.0,0.0287,0.5494,0.2796,0.0004,0.7667,0.0002,0.1906,0.0017,0.5909,0.0013,0.47,0.0432
+True,True,800,+ both (improved),0.058,1.0,0.0293,0.6207,0.2728,0.009,0.7667,0.0005,0.1838,0.036,0.6129,0.0001,0.5033,0.0016
