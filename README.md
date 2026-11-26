@@ -43,7 +43,7 @@ For each patient the system receives up to 50 candidate drugs and must rank them
 3. **A careful evaluation protocol:** all models are scored on the same patients, every comparison is paired, and we report permutation tests, bootstrap confidence intervals and the numbers of patients fixed and broken, together with an ablation of each change.
 4. **An exploratory analysis** of an 800-patient subset of DrugRec.
 
-## 4. System architecture
+## 4. System model
 
 ```mermaid
 flowchart TD
